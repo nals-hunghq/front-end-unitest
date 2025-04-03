@@ -3,3 +3,8 @@ export enum PaymentMethod {
   PAYPAY = 'paypay',
   AUPAY = 'aupay',
 }
+
+export interface PaymentMethodConfig {
+  method: PaymentMethod;
+  maxAmount: number;
+}
